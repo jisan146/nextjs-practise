@@ -1,0 +1,124 @@
+;;; 
+Import: Release 21.0.0.0.0 - Production on Tue Apr 19 00:10:17 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 21c Enterprise Edition Release 21.0.0.0.0 - Production
+Master table "SYS"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "SYS"."SYS_IMPORT_SCHEMA_01":  sys/******** AS SYSDBA schemas=coredb directory=bkp dumpfile=3.dmp REMAP_SCHEMA=coredb:coredb_test 
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "COREDB_TEST"."APPLICATION_MENU_ACCESS_CONTROL"  110.3 KB    1924 rows
+. . imported "COREDB_TEST"."POS_COLOR"                   7.203 KB       1 rows
+. . imported "COREDB_TEST"."DESIGNATION"                 12.03 KB      96 rows
+. . imported "COREDB_TEST"."POS_PRODUCT_PURCHASE"        11.68 KB       3 rows
+. . imported "COREDB_TEST"."EDU_STUDENT_WAIVER"          8.148 KB       3 rows
+. . imported "COREDB_TEST"."EDU_CLASS_SUBJECT_TEACHER"       0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_STUDENT"                 301.8 KB    2299 rows
+. . imported "COREDB_TEST"."DEPARTMENT"                  10.43 KB      78 rows
+. . imported "COREDB_TEST"."BWDB_PROJECT_PLAN"           8.531 KB       3 rows
+. . imported "COREDB_TEST"."EDU_STD_FEES_COLLECTION"     9.421 KB       2 rows
+. . imported "COREDB_TEST"."ACCOUNTS_MULTI_TRANSECTION"      0 KB       0 rows
+. . imported "COREDB_TEST"."APPLICATION_MENU_PAGES"      100.3 KB     134 rows
+. . imported "COREDB_TEST"."EDU_EXAM_RESULT_BKP"         509.9 KB    7792 rows
+. . imported "COREDB_TEST"."APPLICATION_PATCH_UPDATE"    191.6 KB     668 rows
+. . imported "COREDB_TEST"."EDU_ACTION_PLAN"             10.19 KB      29 rows
+. . imported "COREDB_TEST"."APPLICATION_SUB_SELECT"          0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_EXAM"                    16.55 KB      95 rows
+. . imported "COREDB_TEST"."APPLICATION_OPTIONS_SUB"         0 KB       0 rows
+. . imported "COREDB_TEST"."GLOBAL_RELIGION"             8.109 KB      21 rows
+. . imported "COREDB_TEST"."EDU_CLASS_ROUTINE"           240.4 KB    2733 rows
+. . imported "COREDB_TEST"."APPLICATION_UI_INFO"         56.32 KB     437 rows
+. . imported "COREDB_TEST"."HR_EMP_IDENTIFIER"           11.04 KB      36 rows
+. . imported "COREDB_TEST"."EDU_ASSIGNMENT_ASSIGN"       425.6 KB    8037 rows
+. . imported "COREDB_TEST"."POS_BRAND"                   7.617 KB       1 rows
+. . imported "COREDB_TEST"."APPLICATION_OPTIONS"         7.429 KB       4 rows
+. . imported "COREDB_TEST"."APPLICATION_MENU_ACCESS_GROUP"  8.093 KB      23 rows
+. . imported "COREDB_TEST"."EDU_CLASS_SUBJECT"           46.07 KB     595 rows
+. . imported "COREDB_TEST"."EDU_BILL"                        0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_CLASS"                   11.91 KB      99 rows
+. . imported "COREDB_TEST"."APPLICATION_CLIENT_BILL"     8.062 KB       1 rows
+. . imported "COREDB_TEST"."ACCOUNTS_HEAD"                   0 KB       0 rows
+. . imported "COREDB_TEST"."POS_SUPPLIER"                9.898 KB       2 rows
+. . imported "COREDB_TEST"."ACCOUNTS_PARTY_CATEGORY"     7.640 KB       1 rows
+. . imported "COREDB_TEST"."TEST123"                     6.773 KB       1 rows
+. . imported "COREDB_TEST"."HR_EMP_EXPERIENCE"           10.88 KB      33 rows
+. . imported "COREDB_TEST"."EDU_CLASS_SUBJECT_BKP"       18.58 KB     175 rows
+. . imported "COREDB_TEST"."EDU_ZOOM_LINK"               10.53 KB       9 rows
+. . imported "COREDB_TEST"."POS_CATEGORY"                7.242 KB       2 rows
+. . imported "COREDB_TEST"."TEST"                        8.093 KB       2 rows
+. . imported "COREDB_TEST"."POS_PRODUCT_ATTRIBUTE"       7.679 KB       2 rows
+. . imported "COREDB_TEST"."EMPLOYEE"                    36.21 KB     274 rows
+. . imported "COREDB_TEST"."APPLICATION_USERS"           728.2 KB    3745 rows
+. . imported "COREDB_TEST"."ACCOUNTS_PRINCIPAL_SECTOR"   8.007 KB       9 rows
+. . imported "COREDB_TEST"."EDU_SUBJECT"                 8.156 KB       3 rows
+. . imported "COREDB_TEST"."EDU_SECTION"                 13.60 KB     119 rows
+. . imported "COREDB_TEST"."ACCOUNTS_PRINCIPAL_SUB_SECTOR"  8.523 KB      11 rows
+. . imported "COREDB_TEST"."GLOBAL_DAY"                  7.882 KB       7 rows
+. . imported "COREDB_TEST"."ZTEMP_EDU_EMPLOYEE"          6.007 KB      22 rows
+. . imported "COREDB_TEST"."POS_PRODUCT_SALES"               0 KB       0 rows
+. . imported "COREDB_TEST"."HR_DEPARTMENT"               7.632 KB       1 rows
+. . imported "COREDB_TEST"."APPLICATION_CLIENT_BRANCH"   7.906 KB      21 rows
+. . imported "COREDB_TEST"."HR_EMPLOYEE"                 32.62 KB      57 rows
+. . imported "COREDB_TEST"."GLOBAL_YEAR"                 8.265 KB       6 rows
+. . imported "COREDB_TEST"."APPLICATION_LOG_BKP"         1.095 MB    3724 rows
+. . imported "COREDB_TEST"."ZTEMP_EDU_SUBJECT"           5.585 KB      42 rows
+. . imported "COREDB_TEST"."ACCOUNTS_TRIAL_BALANCE"          0 KB       0 rows
+. . imported "COREDB_TEST"."POS_SUBCATEGORY"             7.679 KB       2 rows
+. . imported "COREDB_TEST"."ACCOUNTS_ORG_OWNER"              0 KB       0 rows
+. . imported "COREDB_TEST"."POS_SALES_CUSTOMER_PAYMENT"      0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_NOTICE_SEEN"             1.900 MB   84690 rows
+. . imported "COREDB_TEST"."VIRTUAL_ROW"                 7.585 KB      15 rows
+. . imported "COREDB_TEST"."EDU_CLASS_ROUTINE_BKP"       37.85 KB     400 rows
+. . imported "COREDB_TEST"."HR_EMP_RELATIVES"            10.78 KB      38 rows
+. . imported "COREDB_TEST"."APPLICATION_CLIENT_DETAILS"  10.66 KB      22 rows
+. . imported "COREDB_TEST"."POS_PRODUCT"                 14.10 KB       2 rows
+. . imported "COREDB_TEST"."EDU_ATTENDANCE"              822.2 KB   11329 rows
+. . imported "COREDB_TEST"."EDU_ASSIGNMENT"              62.60 KB     387 rows
+. . imported "COREDB_TEST"."HR_EMP_MARITAL"              11.53 KB      43 rows
+. . imported "COREDB_TEST"."POS_UNIT"                    7.281 KB       4 rows
+. . imported "COREDB_TEST"."HR_EMP_CHILD"                11.29 KB      39 rows
+. . imported "COREDB_TEST"."GLOBAL_BLOOD_GROUP"          7.437 KB       8 rows
+. . imported "COREDB_TEST"."POS_GLOBAL_RATE"             8.046 KB       1 rows
+. . imported "COREDB_TEST"."EDU_EXAM_TOTAL_MARK"         8.648 KB      42 rows
+. . imported "COREDB_TEST"."EDU_STUDENT_BKP"             153.8 KB     808 rows
+. . imported "COREDB_TEST"."EDU_STD_PROMOTION"               0 KB       0 rows
+. . imported "COREDB_TEST"."ORG_DEFAULT_OPTIONS"             0 KB       0 rows
+. . imported "COREDB_TEST"."POS_SALES_PRODUCT_RETURN"        0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_CLASS_ROUTINE_BKP1"      55.35 KB     649 rows
+. . imported "COREDB_TEST"."POS_WARRANTY_INFO"               0 KB       0 rows
+. . imported "COREDB_TEST"."BWDB_GEO_BAG_CHIP"           7.710 KB       3 rows
+. . imported "COREDB_TEST"."APPLICATION_PATCH_UPDATE_EXECUTE"  27.87 KB     668 rows
+. . imported "COREDB_TEST"."APPLICATION_SL_GENERATOR"    175.3 KB    1960 rows
+. . imported "COREDB_TEST"."RUBAYET_TEST_STUDENT"        8.945 KB       2 rows
+. . imported "COREDB_TEST"."APPLICATION_MENU"            9.992 KB      17 rows
+. . imported "COREDB_TEST"."ACCOUNTS_JOURNAL"            14.77 KB       4 rows
+. . imported "COREDB_TEST"."TESTJISANABC"                    0 KB       0 rows
+. . imported "COREDB_TEST"."TESTJISAN"                       0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_CLASS_FEES"              9.265 KB       8 rows
+. . imported "COREDB_TEST"."ZTEMP_EDU_STUDENT"           19.85 KB      14 rows
+. . imported "COREDB_TEST"."POS_ORIGIN"                  7.210 KB       1 rows
+. . imported "COREDB_TEST"."APPLICATION_LOG"             49.36 KB     209 rows
+. . imported "COREDB_TEST"."EDU_EXAM_RESULT"             45.62 KB     461 rows
+. . imported "COREDB_TEST"."ACCOUNTS_LEDGER"                 0 KB       0 rows
+. . imported "COREDB_TEST"."POS_CUSTOMER"                    0 KB       0 rows
+. . imported "COREDB_TEST"."EDU_NOTICE"                  9.507 KB       7 rows
+. . imported "COREDB_TEST"."POS_SIZE"                    7.203 KB       1 rows
+. . imported "COREDB_TEST"."HR_EMP_QUALIFICATION"        12.78 KB      52 rows
+. . imported "COREDB_TEST"."POS_SALES_INVOICE"               0 KB       0 rows
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+ORA-39082: Object type PROCEDURE:"COREDB_TEST"."USER_ID_GEN_X" created with compilation warnings
+ORA-39082: Object type PROCEDURE:"COREDB_TEST"."ORG_SECTION" created with compilation warnings
+ORA-39082: Object type PROCEDURE:"COREDB_TEST"."ORG_CLASS" created with compilation warnings
+ORA-39082: Object type PROCEDURE:"COREDB_TEST"."ORG_EMPLOYEE" created with compilation warnings
+Job "SYS"."SYS_IMPORT_SCHEMA_01" completed with 4 error(s) at Tue Apr 19 00:11:51 2022 elapsed 0 00:01:20

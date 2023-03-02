@@ -1,0 +1,131 @@
+;;; 
+Export: Release 21.0.0.0.0 - Production on Mon Apr 25 17:31:25 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 21c Enterprise Edition Release 21.0.0.0.0 - Production
+Starting "COREDB"."SYS_EXPORT_SCHEMA_02":  coredb/******** schemas=coredb directory=bkp dumpfile=25_04_2022_05_31_07_PM.dmp 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "COREDB"."EDU_NOTICE_SEEN"                  1.900 MB   84690 rows
+. . exported "COREDB"."APPLICATION_LOG_BKP"              1.095 MB    3724 rows
+. . exported "COREDB"."EDU_ATTENDANCE"                   822.2 KB   11329 rows
+. . exported "COREDB"."EDU_EXAM_RESULT_BKP"              509.9 KB    7792 rows
+. . exported "COREDB"."EDU_ASSIGNMENT_ASSIGN"            425.5 KB    8037 rows
+. . exported "COREDB"."EDU_CLASS_ROUTINE"                240.4 KB    2733 rows
+. . exported "COREDB"."APPLICATION_PATCH_UPDATE"         191.6 KB     668 rows
+. . exported "COREDB"."APPLICATION_SL_GENERATOR_BKP"     175.3 KB    1960 rows
+. . exported "COREDB"."EDU_STUDENT_BKP"                  153.8 KB     808 rows
+. . exported "COREDB"."APPLICATION_MENU_ACCESS_CONTROL"  110.3 KB    1924 rows
+. . exported "COREDB"."EDU_ASSIGNMENT"                   62.59 KB     387 rows
+. . exported "COREDB"."APPLICATION_UI_INFO"              56.32 KB     437 rows
+. . exported "COREDB"."EDU_CLASS_ROUTINE_BKP1"           55.34 KB     649 rows
+. . exported "COREDB"."EDU_EXAM_RESULT"                  45.62 KB     461 rows
+. . exported "COREDB"."EDU_CLASS_SUBJECT"                46.07 KB     595 rows
+. . exported "COREDB"."EDU_CLASS_ROUTINE_BKP"            37.83 KB     400 rows
+. . exported "COREDB"."HR_EMPLOYEE"                      32.62 KB      57 rows
+. . exported "COREDB"."APPLICATION_LOG"                  33.20 KB      94 rows
+. . exported "COREDB"."APPLICATION_PATCH_UPDATE_EXECUTE"  27.87 KB     668 rows
+. . exported "COREDB"."ZTEMP_EDU_STUDENT"                19.85 KB      14 rows
+. . exported "COREDB"."APPLICATION_MENU_PAGES"           19.35 KB       6 rows
+. . exported "COREDB"."EDU_CLASS_SUBJECT_BKP"            18.57 KB     175 rows
+. . exported "COREDB"."EDU_STUDENT"                      18.58 KB       6 rows
+. . exported "COREDB"."EDU_EXAM"                         16.55 KB      95 rows
+. . exported "COREDB"."ACCOUNTS_JOURNAL"                 14.77 KB       4 rows
+. . exported "COREDB"."POS_PRODUCT"                      14.10 KB       2 rows
+. . exported "COREDB"."APPLICATION_USERS"                14.92 KB      15 rows
+. . exported "COREDB"."HR_EMP_QUALIFICATION"             12.78 KB      52 rows
+. . exported "COREDB"."POS_PRODUCT_PURCHASE"             11.68 KB       3 rows
+. . exported "COREDB"."HR_EMP_MARITAL"                   11.53 KB      43 rows
+. . exported "COREDB"."EMPLOYEE"                         11.51 KB       1 rows
+. . exported "COREDB"."HR_EMP_CHILD"                     11.29 KB      39 rows
+. . exported "COREDB"."HR_EMP_IDENTIFIER"                11.04 KB      36 rows
+. . exported "COREDB"."HR_EMP_EXPERIENCE"                10.88 KB      33 rows
+. . exported "COREDB"."HR_EMP_RELATIVES"                 10.78 KB      38 rows
+. . exported "COREDB"."EDU_ZOOM_LINK"                    10.53 KB       9 rows
+. . exported "COREDB"."APPLICATION_CLIENT_DETAILS"       10.66 KB      22 rows
+. . exported "COREDB"."EDU_ACTION_PLAN"                  10.18 KB      29 rows
+. . exported "COREDB"."POS_SUPPLIER"                     9.898 KB       2 rows
+. . exported "COREDB"."EDU_NOTICE"                         9.5 KB       7 rows
+. . exported "COREDB"."EDU_STD_FEES_COLLECTION"          9.414 KB       2 rows
+. . exported "COREDB"."EDU_CLASS_FEES"                   9.265 KB       8 rows
+. . exported "COREDB"."APPLICATION_SL_GENERATOR"         8.992 KB       2 rows
+. . exported "COREDB"."RUBAYET_TEST_STUDENT"             8.945 KB       2 rows
+. . exported "COREDB"."APPLICATION_MENU"                 8.640 KB       3 rows
+. . exported "COREDB"."EDU_EXAM_TOTAL_MARK"              8.648 KB      42 rows
+. . exported "COREDB"."BWDB_PROJECT_PLAN"                8.531 KB       3 rows
+. . exported "COREDB"."ACCOUNTS_PRINCIPAL_SUB_SECTOR"    8.523 KB      11 rows
+. . exported "COREDB"."GLOBAL_YEAR"                      8.265 KB       6 rows
+. . exported "COREDB"."EDU_STUDENT_WAIVER"               8.148 KB       3 rows
+. . exported "COREDB"."EDU_SECTION"                      8.117 KB       3 rows
+. . exported "COREDB"."EDU_SUBJECT"                      8.156 KB       3 rows
+. . exported "COREDB"."TEST"                             8.093 KB       2 rows
+. . exported "COREDB"."GLOBAL_RELIGION"                  8.109 KB      21 rows
+. . exported "COREDB"."APPLICATION_CLIENT_BILL"          8.062 KB       1 rows
+. . exported "COREDB"."POS_GLOBAL_RATE"                  8.046 KB       1 rows
+. . exported "COREDB"."APPLICATION_MENU_ACCESS_GROUP"    8.093 KB      23 rows
+. . exported "COREDB"."ACCOUNTS_PRINCIPAL_SECTOR"        8.007 KB       9 rows
+. . exported "COREDB"."APPLICATION_CLIENT_BRANCH"        7.898 KB      21 rows
+. . exported "COREDB"."GLOBAL_DAY"                       7.875 KB       7 rows
+. . exported "COREDB"."BWDB_GEO_BAG_CHIP"                7.710 KB       3 rows
+. . exported "COREDB"."POS_SUBCATEGORY"                  7.679 KB       2 rows
+. . exported "COREDB"."POS_PRODUCT_ATTRIBUTE"            7.679 KB       2 rows
+. . exported "COREDB"."EDU_CLASS"                        7.617 KB       1 rows
+. . exported "COREDB"."POS_BRAND"                        7.617 KB       1 rows
+. . exported "COREDB"."DESIGNATION"                      7.640 KB       1 rows
+. . exported "COREDB"."HR_DEPARTMENT"                    7.632 KB       1 rows
+. . exported "COREDB"."ACCOUNTS_PARTY_CATEGORY"          7.640 KB       1 rows
+. . exported "COREDB"."VIRTUAL_ROW"                      7.585 KB      15 rows
+. . exported "COREDB"."APPLICATION_OPTIONS"              7.429 KB       4 rows
+. . exported "COREDB"."GLOBAL_BLOOD_GROUP"               7.437 KB       8 rows
+. . exported "COREDB"."POS_UNIT"                         7.281 KB       4 rows
+. . exported "COREDB"."POS_CATEGORY"                     7.242 KB       2 rows
+. . exported "COREDB"."DEPARTMENT"                       7.234 KB       2 rows
+. . exported "COREDB"."POS_ORIGIN"                       7.210 KB       1 rows
+. . exported "COREDB"."POS_COLOR"                        7.203 KB       1 rows
+. . exported "COREDB"."POS_SIZE"                         7.203 KB       1 rows
+. . exported "COREDB"."TEST123"                          6.773 KB       1 rows
+. . exported "COREDB"."ZTEMP_EDU_EMPLOYEE"               6.007 KB      22 rows
+. . exported "COREDB"."ZTEMP_EDU_SUBJECT"                5.585 KB      42 rows
+. . exported "COREDB"."ACCOUNTS_HEAD"                        0 KB       0 rows
+. . exported "COREDB"."ACCOUNTS_LEDGER"                      0 KB       0 rows
+. . exported "COREDB"."ACCOUNTS_MULTI_TRANSECTION"           0 KB       0 rows
+. . exported "COREDB"."ACCOUNTS_ORG_OWNER"                   0 KB       0 rows
+. . exported "COREDB"."ACCOUNTS_TRIAL_BALANCE"               0 KB       0 rows
+. . exported "COREDB"."APPLICATION_OPTIONS_SUB"              0 KB       0 rows
+. . exported "COREDB"."APPLICATION_SUB_SELECT"               0 KB       0 rows
+. . exported "COREDB"."EDU_BILL"                             0 KB       0 rows
+. . exported "COREDB"."EDU_CLASS_SUBJECT_TEACHER"            0 KB       0 rows
+. . exported "COREDB"."EDU_STD_PROMOTION"                    0 KB       0 rows
+. . exported "COREDB"."ORG_DEFAULT_OPTIONS"                  0 KB       0 rows
+. . exported "COREDB"."POS_CUSTOMER"                         0 KB       0 rows
+. . exported "COREDB"."POS_PRODUCT_SALES"                    0 KB       0 rows
+. . exported "COREDB"."POS_SALES_CUSTOMER_PAYMENT"           0 KB       0 rows
+. . exported "COREDB"."POS_SALES_INVOICE"                    0 KB       0 rows
+. . exported "COREDB"."POS_SALES_PRODUCT_RETURN"             0 KB       0 rows
+. . exported "COREDB"."POS_WARRANTY_INFO"                    0 KB       0 rows
+. . exported "COREDB"."SYS_EXPORT_SCHEMA_01"                 0 KB       0 rows
+. . exported "COREDB"."TESTJISAN"                            0 KB       0 rows
+. . exported "COREDB"."TESTJISANABC"                         0 KB       0 rows
+Master table "COREDB"."SYS_EXPORT_SCHEMA_02" successfully loaded/unloaded
+******************************************************************************
+Dump file set for COREDB.SYS_EXPORT_SCHEMA_02 is:
+  F:\ORACLEDB\DBENGINE\ORADATA\ORCL\BKP\25_04_2022_05_31_07_PM.DMP
+Job "COREDB"."SYS_EXPORT_SCHEMA_02" successfully completed at Mon Apr 25 17:32:22 2022 elapsed 0 00:00:53
